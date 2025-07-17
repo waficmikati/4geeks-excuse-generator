@@ -1,0 +1,99 @@
+/* @import "bootstrap/dist/css/bootstrap.min.css"; */
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+html,
+button,
+p {
+    font-family: "Modak", system-ui;
+}
+
+html {
+    background: #2a1652;
+    height: 100%;
+    width: 100%;
+    color: #fcc6e7;
+    font-size: 64px;
+}
+
+body {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    user-select: none;
+}
+
+#excuse {
+    cursor: pointer;
+    margin: 0;
+    background: #260a32;
+    padding: 0.25rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    height: 3rem;
+    align-content: center;
+}
+
+#excuse:hover {
+    color: #fbb4b4;
+    transform: translateY(-2px) scale(1.01);
+    text-shadow: 0px 4px 0 rgb(74, 51, 72);
+}
+
+#excuse:active {
+    transform: translateY(0px) scale(1.0);
+    filter: brightness(1.1);
+}
+
+#emoji {
+    font-size: 2.5rem;
+    line-height: 0;
+}
+
+button {
+    margin: auto;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0.25rem;
+    border-radius: 25px;
+    background: #af449d;
+    color: #f9d7fc;
+    text-shadow: 3px 3px 1px #4f3e56;
+    box-shadow: 0px 4px 0 rgb(74, 51, 72);
+}
+
+button:hover {
+    color: #fcd7e0;
+    box-shadow: 0px 6px 0 #4f3e56;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #af4474;
+    /* filter: brightness(1.1); */
+    box-shadow: none;
+    transform: translateY(2px);
+    box-shadow: 0px 0px 5px #4f3e56;
+}
+
+#modal {
+    visibility: hidden;
+    font-family: Cambria;
+    font-size: 1rem;
+    background: #663288;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    height: 3rem;
+    padding: 30px;
+    border-radius: 30px;
+    border: 5px dashed #FFFFFF77;
+    z-index: 99;
+    margin: auto;
+    left: 0;
+    right: 0;
+    align-content: center;
+}
