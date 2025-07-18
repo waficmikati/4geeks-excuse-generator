@@ -32,6 +32,8 @@ window.onload = function () {
     navigator.clipboard.writeText(excuseElement.innerText)
     modalElement.style.visibility = 'visible'
   }
+
+  setInnerTexts();
 };
 
 function randomIndex(array) {
