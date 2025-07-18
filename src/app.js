@@ -11,10 +11,11 @@ window.onload = function () {
   let generateButton = document.getElementById('generate')
   let modalElement = document.getElementById('modal')
 
-  let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
-  let action = ['ate', 'peed on', 'crushed', 'destroyed'];
-  let what = ['my homework', 'my phone', 'the car'];
-  let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
+  let who = ['El perro', 'Mi abuela', 'El cartero', 'Mi pájaro'];
+  let action = ['se comió', 'orinó sobre', 'aplastó', 'destruyó'];
+  let what = ['mi tarea', 'mi teléfono', 'el coche'];
+  let when = ['antes de la clase', 'mientras dormía', 'mientras hacía ejercicio', 'durante mi almuerzo', 'mientras rezaba'];
+
   let emoji = ['😭', '😨', '🥵', '😵', '🥺', '😓', '😔', '😢', '😶‍🌫️', '😈'];
 
   function setInnerTexts() {
